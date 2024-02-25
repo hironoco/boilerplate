@@ -7,8 +7,6 @@ date: 2024-2-25
 
 + 自分の回答
 ```go
-import("strings")
-
 func gcdOfStrings(str1 string, str2 string) string {
     tmpAns := ""
     Ans := ""
