@@ -6,6 +6,7 @@ date: 2024-2-25
 ## 例題との相違点
 
 + 自分の回答
+
 ```go
 func gcdOfStrings(str1 string, str2 string) string {
     tmpAns := ""
@@ -24,10 +25,10 @@ func removeSubstring(input, substring string) string {
 	result := strings.Replace(input, substring, "", -1)
 	return result
 }
-
 ```
 
 + 最速の例題
+
 ```go
 func gcd(a, b int) int {
 	for b != 0 {
