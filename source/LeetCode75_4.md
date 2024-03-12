@@ -74,7 +74,6 @@ func canPlaceFlowers(flowerbed []int, n int) bool {
     arrangeArray := append([]int{0}, flowerbed...)
     arrangeArray = append(arrangeArray, 0)
 
-
     for i := 1; i < len(flowerbed)+1; i++{
         if arrangeArray[i] == 0 && arrangeArray[i-1] == 0 && arrangeArray[i+1] == 0{
             arrangeArray[i] =1
