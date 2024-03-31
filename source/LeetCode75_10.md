@@ -6,8 +6,8 @@ date: 2024-3-31
 
 + int配列を探索して0だったら末尾に移動する。それ以外の数字の並び順は保持する。
 + 原文
-Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
-Note that you must do this in-place without making a copy of the array.
+>Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+>Note that you must do this in-place without making a copy of the array.
 
 ## 例題との相違点
 
@@ -28,7 +28,7 @@ func moveZeroes(nums []int)  {
 }
 ```
 
-+ ほかの人のシンプルな回答
++ 最速の回答
 
 ```go
 func moveZeroes(nums []int) {
