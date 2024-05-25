@@ -16,6 +16,7 @@ date: 2024-5-25
 
 + 自分の回答(0ms)
   + 説明は不要
+
 ```go
 func largestAltitude(gain []int) int {
     att := 0
