@@ -62,7 +62,6 @@ func checkIsVowel(k byte) bool{
 
 + 回答例（なし）
 
-
 ## 感想
 
 + ほかの回答も大体同じ。
